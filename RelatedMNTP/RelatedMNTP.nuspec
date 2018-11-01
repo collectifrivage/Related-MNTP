@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RelatedMNTP</id>
+    <version>1.0.0</version>
+    <authors>Sigmund,Davidton</authors>
+    <owners>Sigmund,Davidton</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/sigmundftw/Related-MNTP</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/sigmundftw/EnhancedDictionaryEditor/master/Logo.png</iconUrl>
+    <language>en-ca</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bidirectional multinode tree picker using umbraco relations.</description>
+    <tags>relations node picker umbraco backoffice bidirectional</tags>
+    <dependencies>
+      <dependency id="UmbracoCms.Core" version="7.7.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="app_plugins\RelatedMNTP\**\*.*" target="content\app_plugins\RelatedMNTP" />
+    <file src="Transforms\**\*.*" target="content" />
+    <file src="bin\RelatedMNTP.dll" target="lib\net45" />
+</files>
+</package>
